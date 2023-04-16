@@ -1,5 +1,5 @@
-#include <stdio.h> 
-#include <stdlib.h> 
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - print the result of the multiplication of two numbers
@@ -17,9 +17,9 @@ int main(int argc, char *argv[])
 		sum = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", sum);
 	}
-	else 
+	else
 	{
-	 	printf("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 

@@ -9,15 +9,15 @@
  * Return: Always 0
  */
 int main(int argc, char *argv[])
-{       
-        int sum = 0;
-        char *c;
-        
-        while (--argc)
-        {       
-                for (c = argv[argc]; *c; c++)
-			if (*c < '0' || *c > '9')
-				return (printf("Error\n", 1);
+{
+	int sum = 0;
+	char *t;
+
+	while (--argc)
+	{
+		for (t = argv[argc]; *t; t++)
+			if (*t < '0' || *t > '9')
+				return (printf("Error\n", 1));
 			sum += atoi(argv[argc]);
 	}
 	printf("%d\n", sum);

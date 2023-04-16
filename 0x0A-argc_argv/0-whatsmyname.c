@@ -1,7 +1,7 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
- * main - prints a program name, followed by a new line
+ * main - prints a program name followed by a new line
  * @argc: int
  * @argv: string
  * Return: 0

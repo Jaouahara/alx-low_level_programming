@@ -1,4 +1,4 @@
-#include "function_pointers.h"
+#include "3-calc.h"
 
 /**
  * get_op_func - returns the pointer to the right op function
@@ -16,13 +16,13 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int h = 0;
+	int i = 0;
 
-	while (h < 5)
+	while (i < 5)
 	{
-		if (s && s[0] == ops[h].op[0] && !s[1])
-			return (ops[h].f);
-		h++;
+		if (s && s[0] == ops[i].op[0] && !s[1])
+			return (ops[i].f);
+		i++;
 	}
 
 	return (NULL);

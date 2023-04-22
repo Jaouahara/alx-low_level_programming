@@ -5,7 +5,7 @@
  * @n: nbr of arguments
  * @...: integers to sum
  */
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 	int a = 0, o = n;
 	va_list af;

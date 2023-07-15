@@ -200,7 +200,8 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 
 	switch (e_type)
 	{
-	case ET_NONE:		printf("NONE (None)\n");
+	case ET_NONE:
+		printf("NONE (None)\n");
 		break;
 	case ET_REL:
 		printf("REL (Relocatable file)\n");
